@@ -4,6 +4,7 @@
   "description": "公共库打包实践示例",
   "main": "index.js",
   "scripts": {
+    "build-b": "babel index.js -d lib",
     "build": "webpack build",
     "test": "jest"
   },
